@@ -17,7 +17,7 @@ class NaiveBayesLanguageIdentifier:
     def _normalize_text(self, text):
         # Normalize text
         # We can add more normalization methods based on languages
-        normalized_text = unicodedata.normalize('NFKD', text).encode('ASCII', 'ignore').decode('utf-8')
+        normalized_text = unicodedata.normalize('NFKD', text).encode('ASCII','ignore').decode('utf-8')
         return normalized_text
     
     def _clean_text(self, text):
