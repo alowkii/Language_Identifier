@@ -72,8 +72,7 @@ def load_text_file(file_path):
         text = file.read()
     return text
 
-# Example usage:
-# Small sample dataset:
+# Usage:
 import pandas as pd
 
 df = pd.read_csv('Language Detection.csv')
@@ -83,7 +82,7 @@ labels = df.iloc[:, 1].tolist()
 
 identifier = NaiveBayesLanguageIdentifier(n=3)
 
-# Define some stop words for noise filtering
+# Define stop words for noise filtering
 STOP_WORDS = {}
 languages = set(labels)
 print(languages)
