@@ -6,7 +6,7 @@ image_path = 'image.png'
 
 img = Image.open(image_path)
 
-text = pytesseract.image_to_string(img, lang='hin')
+text = pytesseract.image_to_string(img, lang='ocrb+eng+rus+hin+kor+jap')
 
 with open('input.txt', 'w', encoding='utf-8') as file:
     file.write(text)
