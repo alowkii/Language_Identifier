@@ -11,6 +11,7 @@ class NaiveBayesLanguageIdentifier:
         self.class_counts = defaultdict(int)
         self.stop_words = defaultdict(set)
     
+    # replacement for lambda function, pickle doesn't support lambda functions
     def default_dict_factory(self):
         return defaultdict(int)
     

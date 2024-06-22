@@ -11,7 +11,7 @@ def progress_bar(progress, total, elapsed_time):
         eta_seconds = int(eta_seconds)
     if progress == total:
         eta_seconds = 0
-    print(f"\rTesting:\t|{bar}| {percent:.2f}%\tETA: {eta_minutes} mins {eta_seconds} seconds", end='\r')
+    print(f"\rTesting:\t|{bar}| {percent:.2f}%\tETA: {eta_minutes} mins {eta_seconds} seconds    ", end='\r')
 
 def test(model):
     score = 0
@@ -23,7 +23,7 @@ def test(model):
     start_time = time.time()
     predicted_language = model.predict(text_data[0])
     elapsed_time = time.time() - start_time
-    total_time = elapsed_time * length_data * 1.6       # 60% extra time for the total time
+    total_time = elapsed_time * length_data * 1.8       # 80% extra time for the total time
     
     for i in range(1,length_data):
         start_time = time.time()
