@@ -134,9 +134,9 @@ Contributions are welcome! Please fork the repository and create a pull request 
 
 ## License
 
-This project is licensed under the Apache 2.0 License. See the [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) file for more details.
+- [MIT](https://choosealicense.com/licenses/mit/)
 
-SPDX-License-Identifier: Apache-2.0
+- [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/)
 
 ## Contact
 
