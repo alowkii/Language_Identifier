@@ -3,7 +3,7 @@
 import random_data_selection
 import pickle
 from test import *
-from train import *
+from model import *
 
 model = NaiveBayesLanguageIdentifier(n=3)
 epochs = 10
