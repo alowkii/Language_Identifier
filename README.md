@@ -1,9 +1,9 @@
 # Language Identifier using Naive Bayes Classifier
 
-Overview
+## Overview
 This project implements a Language Identifier that uses a Naive Bayes Classifier to predict the language of a given text. The classifier is trained on a dataset containing text samples in multiple languages, achieving an accuracy of 89.78%.
 
-Features
+## Features
 High Accuracy: Achieves an accuracy of 89.78% on the test dataset.
 Multilingual Support: Can identify a variety of languages.
 Naive Bayes Classifier: Utilizes the simplicity and efficiency of the Naive Bayes algorithm.
@@ -12,7 +12,7 @@ Easy Integration: Designed to be easily integrated into other projects or used a
 Installation
 To install the necessary dependencies and set up the project, follow these steps:
 
-Clone the Repository:
+## Clone the Repository:
 
 bash
 Copy code
