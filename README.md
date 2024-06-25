@@ -140,4 +140,4 @@ SPDX-License-Identifier: Apache-2.0
 
 ## Contact
 
-For any questions or issues, please open an issue on the GitHub repository or contact the project maintainer at @alowkii.
+For any questions or issues, please open an issue on the GitHub repository or contact the project maintainer at [@alowkii](https://www.linkedin.com/in/aalok-pandit-818ab4184/).
