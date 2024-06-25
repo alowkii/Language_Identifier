@@ -4,20 +4,20 @@
 This project implements a Language Identifier that uses a Naive Bayes Classifier to predict the language of a given text. The classifier is trained on a dataset containing text samples in multiple languages, achieving an accuracy of 89.78%.
 
 ## Features
-High Accuracy: Achieves an accuracy of 89.78% on the test dataset.
-Multilingual Support: Can identify a variety of languages.
-Naive Bayes Classifier: Utilizes the simplicity and efficiency of the Naive Bayes algorithm.
-Image to Text: Supports extracting text from images and identifying the language.
-Easy Integration: Designed to be easily integrated into other projects or used as a standalone tool.
-Installation
+- **High Accuracy**: Achieves an accuracy of 89.78% on the test dataset.
+- **Multilingual Support**: Can identify a variety of languages.
+- **Naive Bayes Classifier**: Utilizes the simplicity and efficiency of the Naive Bayes algorithm.
+- **Image to Text**: Supports extracting text from images and identifying the language.
+- **Easy Integration**: Designed to be easily integrated into other projects or used as a standalone tool.
+
+## Installation
 To install the necessary dependencies and set up the project, follow these steps:
 
-## Clone the Repository:
-
-bash
-Copy code
+### Clone the Repository:
+```bash
 git clone https://github.com/alowkii/language-identifier.git
 cd language-identifier
+```
 Activate Existing Environment:
 The repository already includes a virtual environment called env. Activate this environment:
 
