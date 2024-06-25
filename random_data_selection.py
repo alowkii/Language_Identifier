@@ -1,5 +1,4 @@
 ##Selects 100 random rows from train-data.csv and saves them to test-data.csv
-import os
 import numpy as np
 import random
 import pandas as pd
